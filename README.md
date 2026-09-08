@@ -1,17 +1,17 @@
-Lab Task 04  Data Types, Mutability, and Collections
+Lab Task 04 — Data Types, Mutability, and Collections
 
-#Objective
+Objective
 Apply concepts of mutability, interface implementations (List, Map, Set), and safe iterator traversal using Java Collections.
 
 What I Implemented
 Completed all 4 lab tasks and 2 homework tasks in Java:
 
-StringPerformance:compares String concatenation vs StringBuilder performance for n = 10000
-CourseManager: demonstrates ConcurrentModificationException and fixes it using Iterator.remove()
-TreasureMap: HashMap operations: updating a value and summing all values with a for-each loop
-Zoo:wraps a List in Collections.unmodifiableList() and catches UnsupportedOperationException
-Homework 1: StudentDirectory:Map<Integer, String> with an unmodifiable Set returned from getAllIDs()
-Homework 2: Point:a fully immutable class using `final` class/fields and no setters
+- **StringPerformance** — compares String concatenation vs StringBuilder performance for n = 10000
+- **CourseManager** — demonstrates ConcurrentModificationException and fixes it using Iterator.remove()
+- **TreasureMap** — HashMap operations: updating a value and summing all values with a for-each loop
+- **Zoo** — wraps a List in Collections.unmodifiableList() and catches UnsupportedOperationException
+- **Homework 1: StudentDirectory** — Map<Integer, String> with an unmodifiable Set returned from getAllIDs()
+- **Homework 2: Point** — a fully immutable class using `final` class/fields and no setters
 
 ## How to Run
 1. Open the project in NetBeans.
